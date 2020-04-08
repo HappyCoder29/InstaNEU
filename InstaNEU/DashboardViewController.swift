@@ -16,8 +16,6 @@ class DashboardViewController: UIViewController,  UIImagePickerControllerDelegat
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func logout(_ sender: Any) {
@@ -36,7 +34,7 @@ class DashboardViewController: UIViewController,  UIImagePickerControllerDelegat
     }
     
     @IBAction func takePicture(_ sender: Any) {
-        
+
         if UIImagePickerController.isSourceTypeAvailable(UIImagePickerController.SourceType.camera) {
             let imagePicker = UIImagePickerController()
             imagePicker.delegate = self

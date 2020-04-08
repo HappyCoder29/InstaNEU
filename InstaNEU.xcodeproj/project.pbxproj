@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75A8CD97243D7476005C8B0C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A8CD96243D7476005C8B0C /* UserModel.swift */; };
+		75A8CD99243D7E1E005C8B0C /* SearchUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A8CD98243D7E1E005C8B0C /* SearchUsersTableViewController.swift */; };
 		75F911C72434346F005EA46C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F911C62434346F005EA46C /* AppDelegate.swift */; };
 		75F911C92434346F005EA46C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F911C82434346F005EA46C /* SceneDelegate.swift */; };
 		75F911CB2434346F005EA46C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F911CA2434346F005EA46C /* LoginViewController.swift */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		1943BBC020C89046CF8F1246 /* Pods_InstaNEU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaNEU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A8CD96243D7476005C8B0C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		75A8CD98243D7E1E005C8B0C /* SearchUsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUsersTableViewController.swift; sourceTree = "<group>"; };
 		75F911C32434346F005EA46C /* InstaNEU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaNEU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F911C62434346F005EA46C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75F911C82434346F005EA46C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +71,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		75A8CD95243D7463005C8B0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75A8CD96243D7476005C8B0C /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		75F911BA2434346F005EA46C = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +100,7 @@
 		75F911C52434346F005EA46C /* InstaNEU */ = {
 			isa = PBXGroup;
 			children = (
+				75A8CD95243D7463005C8B0C /* Model */,
 				75F911C62434346F005EA46C /* AppDelegate.swift */,
 				75F911C82434346F005EA46C /* SceneDelegate.swift */,
 				75F911CA2434346F005EA46C /* LoginViewController.swift */,
@@ -99,6 +112,7 @@
 				75F911DC24344380005EA46C /* DashboardViewController.swift */,
 				75F911DE2434447D005EA46C /* KeyChainClass.swift */,
 				75F911E024344B80005EA46C /* RegisterViewController.swift */,
+				75A8CD98243D7E1E005C8B0C /* SearchUsersTableViewController.swift */,
 			);
 			path = InstaNEU;
 			sourceTree = "<group>";
@@ -220,10 +234,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				75F911CB2434346F005EA46C /* LoginViewController.swift in Sources */,
+				75A8CD97243D7476005C8B0C /* UserModel.swift in Sources */,
 				75F911C72434346F005EA46C /* AppDelegate.swift in Sources */,
 				75F911DF2434447D005EA46C /* KeyChainClass.swift in Sources */,
 				75F911E124344B80005EA46C /* RegisterViewController.swift in Sources */,
 				75F911C92434346F005EA46C /* SceneDelegate.swift in Sources */,
+				75A8CD99243D7E1E005C8B0C /* SearchUsersTableViewController.swift in Sources */,
 				75F911DD24344380005EA46C /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
